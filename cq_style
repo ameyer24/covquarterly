@@ -1,0 +1,63 @@
+body {
+  font-size: 110%;
+}
+#header h1 {
+    text-align: center;
+    padding: 0px;
+}
+#leftSidebar {
+    margin-left: 5%;
+}
+#rightSidebar {
+    margin-right: 5%;
+}
+#main {
+    width: 57%;
+    padding-bottom: 1px;
+}
+#navbar a {
+    font-size: 0.70em;
+    letter-spacing: 0.01em;
+}
+
+ul.menu li, #announcements {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    min-width: 90px;
+}
+
+#sidebar div.block span.blockTitle {
+    display: block;
+    font-weight: 700;
+    text-align: center;
+}
+
+#sidebar div.block a {
+    text-decoration: none;
+}
+#sidebar div.block li {
+    list-style-type: none;
+}
+#sidebar ul {
+    padding-left: 0px;
+}
+
+#sponsorLogo img {
+    width: 150px;
+    max-width: 100%;
+    text-align: center;
+}
+#login, #breadcrumb {
+	display: none;
+}
+#pageFooter{
+    text-align: center;    
+}
+
+#pageFooter img{
+    max-width: 130px;
+    text-align: centered
+}
