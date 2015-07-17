@@ -1,5 +1,5 @@
 body {
-  font-size: 110%;
+    font-size: 110%;
 }
 #header h1 {
     text-align: center;
@@ -14,6 +14,7 @@ body {
 #main {
     width: 57%;
     padding-bottom: 1px;
+    border: none;
 }
 #navbar a {
     font-size: 0.70em;
@@ -28,13 +29,15 @@ ul.menu li, #announcements {
     text-align: center;
     min-width: 90px;
 }
-
+#sidebar div.block {
+    padding-bottom: 8px;
+}
 #sidebar div.block span.blockTitle {
     display: block;
     font-weight: 700;
-    text-align: center;
+    padding: 0px;
+    letter-spacing: 1px;
 }
-
 #sidebar div.block a {
     text-decoration: none;
 }
@@ -44,19 +47,18 @@ ul.menu li, #announcements {
 #sidebar ul {
     padding-left: 0px;
 }
-
+#leftSidebar {
+    padding: 0em;
+}
 #sponsorLogo img {
-    width: 150px;
     max-width: 100%;
-    text-align: center;
 }
 #login, #breadcrumb {
-	display: none;
+    display: none;
 }
 #pageFooter{
     text-align: center;    
 }
-
 #pageFooter img{
     max-width: 130px;
     text-align: centered
