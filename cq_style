@@ -63,3 +63,7 @@ ul.menu li, #announcements {
     max-width: 130px;
     text-align: centered
 }
+
+#register > .data > tbody:nth-child(1) > tr:nth-child(12) {
+  display: none;
+}
