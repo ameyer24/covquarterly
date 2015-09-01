@@ -67,3 +67,7 @@ ul.menu li, #announcements {
 #register > .data > tbody:nth-child(1) > tr:nth-child(12) {
   display: none;
 }
+
+#profile > .data > tbody:nth-child(1) > tr:nth-child(7) {
+    background-color: blue;
+}
