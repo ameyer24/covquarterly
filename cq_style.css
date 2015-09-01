@@ -69,5 +69,5 @@ ul.menu li, #announcements {
 }
 
 #profile > .data > tbody:nth-child(1) > tr:nth-child(7) {
-    background-color: blue;
+    display: none;
 }
