@@ -1,65 +1,88 @@
-body {
-    font-size: 110%;
+/* Hide Certain Elements */
+#customblock-Editorial-Committee{display:none}
+#customblock-Advisory-Committee{display:none}
+.published{display:none}
+.col-md-2 {display:none}
+
+/* Update Main Menu */
+/* Enlarge Logo and Move Main NavBar */
+.navbar-brand {
+    padding:0px 15px;
+    height:80px;
+    margin-top:-10px
 }
-#header h1 {
-    text-align: center;
-    padding: 0px;
-}
-#leftSidebar {
-    margin-left: 5%;
-}
-#rightSidebar {
-    margin-right: 5%;
-}
-#main {
-    width: 57%;
-    padding-bottom: 1px;
-    border: none;
-}
-#navbar a {
-    font-size: 0.70em;
-    letter-spacing: 0.01em;
+.navbar-nav, .navbar-form {
+    margin-top:10px;
 }
 
-ul.menu li, #announcements {
-    margin: 0px;
-    padding: 0px 0px 0px 0px;
-    display: inline-block;
-    width: 24%;
-    text-align: center;
-    min-width: 90px;
+/*Move PDF Link to right side on Table of Contents*/
+.media-heading,.meta, .pages {
+    width:85%;
+    float:left;
 }
-#sidebar div.block {
-    padding-bottom: 8px;
+.btn-group {
+    width:15%;
+    float:right;
 }
-#sidebar div.block span.blockTitle {
-    display: block;
-    font-weight: 700;
-    padding: 0px;
-    letter-spacing: 1px;
+.btn-group > .btn, .btn-group-vertical > .btn {
+    float:right;
 }
-#sidebar div.block a {
-    text-decoration: none;
-}
-#sidebar div.block li {
+
+/*Update List Style*/
+ul {
     list-style-type: none;
 }
-#sidebar ul {
-    padding-left: 0px;
+.pkp_block ul li{
+    padding: 0px 15px 0px 5px;
+    border:none;
 }
-#leftSidebar {
-    padding: 0em;
+/*Update Custom Block Titles*/
+.block_custom .title{
+    margin: -15px -15px 15px -15px;
 }
-#sponsorLogo img {
-    max-width: 100%;
+
+/*Fix Image Width*/
+img {max-width: 100%}
+
+/*Remove Whitespace*/
+.page-header{
+    padding-bottom: 0px;
+    margin: 10px 0 10px;
 }
-#login, #breadcrumb {
-    display: none;
+.lead {
+    margin-bottom: 0px;
 }
-#pageFooter{
-    text-align: center;    
+
+/*Update Colors*/
+a, .navbar-default .nav > li > a{
+    color: #0C3F9B;
 }
-#pageFooter img{
-    max-width: 130px;
-    text-align: centered
+.btn-primary {
+    background-color: #0C3F9B;
+    border-color: #0C3F9B;
 }
+
+/*Reduce Heading Sizes*/
+h1,.h1 {
+ font-size: 34px;
+}
+h2,.h2 {
+ font-size: 28px
+}
+h3,.h3 {
+ font-size: 20px
+}
+h4,.h4 {
+ font-size: 16px
+}
+h5,.h5 {
+ font-size: 14px
+}
+h6,.h6 {
+ font-size: 12px
+}
+/*Specific Formatting Changes on the Sidebar*/
+/*Reduce bottom margin on Forum Image*/
+#customblock-Sidebar-3 > div:nth-child(1) > p:nth-child(1){margin:0px;}
+/*Indent Heading in Editorial Committee Block*/
+#customblock-Sidebar > div:nth-child(1) > h4:nth-child(3){padding-left:5px;}
